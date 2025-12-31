@@ -5,10 +5,10 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: () => import("../views/HomeView.vue"),
+      name: "Overview",
+      component: () => import("../views/Overview.vue"),
       meta: {
-        title: "Startseite",
+        title: "Übersicht",
       },
     },
     {
