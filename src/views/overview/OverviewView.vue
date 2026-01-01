@@ -5,7 +5,7 @@ defineOptions({
 import './overview.css'
 import './overview.js'
 
-import SectionOverview from '@/components/sections/section-overview/SectionOverview.vue'
+import SectionOverview from '@/components/sections/overview/SectionOverview.vue'
 </script>
 
 <template>
