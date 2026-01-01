@@ -2,6 +2,8 @@
 
 Tailwind - Cheat Sheet: https://www.creative-tim.com/twcomponents/cheatsheet
 
+## Installiert:
+https://tailwindcss.com/
 
 
 
