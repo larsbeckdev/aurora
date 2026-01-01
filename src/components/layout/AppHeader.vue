@@ -5,7 +5,6 @@
     <div class="container">
       <h1>My App</h1>
       <nav>
-        <a href="/">Home</a>
         <a href="/overview">Overview</a>
       </nav>
     </div>

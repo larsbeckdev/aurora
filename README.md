@@ -1,4 +1,12 @@
-# vue-project
+# Links
+
+Tailwind - Cheat Sheet: https://www.creative-tim.com/twcomponents/cheatsheet
+
+
+
+
+
+# Standard Docs
 
 This template should help get you started developing with Vue 3 in Vite.
 
