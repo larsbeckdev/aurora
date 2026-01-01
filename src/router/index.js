@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: "/",
       name: "Overview",
-      component: () => import("../views/Overview.vue"),
+      component: () => import("@/views/overview/OverviewView.vue"),
       meta: {
         title: "Übersicht",
       },
@@ -14,7 +14,7 @@ const router = createRouter({
     {
       path: "/ueber-uns",
       name: "about",
-      component: () => import("../views/AboutView.vue"),
+      component: () => import("../views/about/AboutView.vue"),
       meta: {
         title: "Über uns",
       },
@@ -22,7 +22,7 @@ const router = createRouter({
     {
       path: "/kontakt",
       name: "contact",
-      component: () => import("../views/ContactView.vue"),
+      component: () => import("../views/contact/ContactView.vue"),
       meta: {
         title: "Kontakt",
       },
@@ -30,7 +30,7 @@ const router = createRouter({
     {
       path: "/:pathMatch(.*)*",
       name: "not-found",
-      component: () => import("../views/NotFoundView.vue"),
+      component: () => import("../views/error/NotFoundView.vue"),
       meta: {
         title: "Seite nicht gefunden",
       },
